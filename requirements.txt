@@ -1,0 +1,7 @@
+pandas
+openpyxl
+requests
+matplotlib
+nbconvert
+nbformat
+ipykernel
