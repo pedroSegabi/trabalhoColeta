@@ -42,8 +42,11 @@ def carregar():
 
 def validar_estrutura(raw, df):
     assert df.shape == (6674, 7), df.shape
-    assert df["nivel_m"].nunique() == 71
+    assert set(df["nivel_m"].round(1)) == {round(3 + i / 10, 1) for i in range(71)}  # 3,0..10,0 m, passo 0,1
+    assert df["bairro"].nunique() == 94  # pega grafias diferentes do mesmo bairro entre níveis
     assert df.groupby("nivel_m")["bairro"].nunique().eq(94).all()
+    campos = ["affected_buildings", "total_buildings", "percentage", "population", "affected_population"]
+    assert (df[campos].dtypes == "int64").all()
     assert not df.duplicated(["nivel_m", "bairro"]).any()
     assert df.notna().all().all()
     # total de prédios e população são atributos do bairro: não podem mudar com o nível
@@ -66,11 +69,13 @@ def quedas(df, col="affected_buildings"):
 
 
 def diagnosticar_calculos(df):
-    exato = 100 * df["affected_buildings"] / df["total_buildings"]
-    teto = exato.apply(math.ceil)
-    fora = df[df["percentage"] != teto]
-    print(f"percentage == teto(100*a/t) em {len(df) - len(fora)} de {len(df)} linhas; exceções:")
-    print(fora[["nivel_m", "bairro", "affected_buildings", "total_buildings", "percentage"]].to_string(index=False))
+    # (a/t)*100 em ponto flutuante, como o INCT aparentemente calculou: 686/2450*100 = 28.000000000000004
+    teto_float = (df["affected_buildings"] / df["total_buildings"] * 100).apply(math.ceil)
+    teto_exato = (100 * df["affected_buildings"] / df["total_buildings"]).apply(math.ceil)
+    print(f"percentage == teto((a/t)*100) em {(df['percentage'] == teto_float).sum()} de {len(df)} linhas")
+    artefato = df[teto_float != teto_exato]
+    print("linhas em que o erro de ponto flutuante muda o teto (deveria ser o valor exato):")
+    print(artefato[["nivel_m", "bairro", "affected_buildings", "total_buildings", "percentage"]].to_string(index=False))
     pop_teto = (df["population"] * df["percentage"] / 100).apply(math.ceil)
     print(f"affected_population == teto(pop*pct/100) em {(df['affected_population'] == pop_teto).sum()} linhas")
 
@@ -93,12 +98,13 @@ def limpar(df):
     inicio_es = (df["bairro"] == "Espírito Santo") & (df["nivel_m"] < 3.45)
     df.loc[inicio_es, "correcao"] = "preenchido com o valor de 3,5 m"
 
-    # 2) ruído pequeno restante -> máximo acumulado (garante que nunca diminui)
-    b = a.groupby(df["bairro"]).cummax()
-    ruido = b != a
-    assert set(df.loc[ruido, "bairro"]) == {"Arquipélago"}, set(df.loc[ruido, "bairro"])
-    df.loc[ruido, "correcao"] = "máximo acumulado"
-    df["affected_buildings"] = b.astype("int64")
+    # 2) Arquipélago oscila em torno de 4680 (valor de 64 dos 71 níveis); os desvios caem nos níveis
+    #    do lote com estrutura diferente (3,0/3,5/4,0/4,5/5,0/5,3 m) e em 4,1 m -> usa o valor modal
+    arq = df["bairro"] == "Arquipélago"
+    moda = a[arq].mode()[0]
+    df.loc[arq & (a != moda), "correcao"] = "valor modal do bairro"
+    a[arq] = moda
+    df["affected_buildings"] = a.astype("int64")
 
     # 3) recalcula os campos derivados sem arredondar para cima
     frac = df["affected_buildings"] / df["total_buildings"]
@@ -129,7 +135,8 @@ def main():
 
     corr = limpo[limpo["correcao"] != ""]
     motivo = {(b, n): m for b, ns, m in CORRECOES for n in ns}
-    corr = corr.assign(motivo=[motivo.get((b, round(n, 1)), "oscilação de até 14 prédios (≤0,3%) num bairro 100% alagado")
+    corr = corr.assign(motivo=[motivo.get((b, round(n, 1)), "oscilação de até 14 prédios num bairro 100% alagado; "
+                                          "usado o valor de 64 dos 71 níveis (4680)")
                                for b, n in zip(corr["bairro"], corr["nivel_m"])])
     corr[["bairro", "nivel_m", "affected_buildings_orig", "affected_buildings", "correcao", "motivo"]] \
         .to_csv(PROC / "inct_correcoes.csv", index=False)

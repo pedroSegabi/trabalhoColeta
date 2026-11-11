@@ -27,7 +27,7 @@ def caixa(ax, x, y, w, h, titulo, detalhe="", cor=CINZA):
 def tela(nome, titulo, blocos):
     fig, ax = plt.subplots(figsize=(16, 10))
     ax.set_xlim(0, 100)
-    ax.set_ylim(0, 64)
+    ax.set_ylim(-3, 64)
     ax.axis("off")
     ax.text(1, 62, titulo, fontsize=15, weight="bold", va="top")
     for b in blocos:
@@ -42,7 +42,7 @@ def main():
     tela("wireframe_tela1.png", "Tela 1 — Se o Guaíba chegar a X metros, quais bairros e quantas pessoas são afetados?", [
         (1, 52, 98, 6, "Nível do Guaíba:  3,0 m  ━━━━━━━●━━━━━━━━━━━━  10,0 m   (passo 0,1 m)",
          "controle deslizante — atualiza todos os elementos da tela", AZUL),
-        (1, 42, 31, 7, "Pessoas afetadas (estimativa)", "ex.: 136.389 a 5,3 m"),
+        (1, 42, 31, 7, "Pessoas afetadas (estimativa)", "ex.: 136.378 a 5,3 m"),
         (35, 42, 30, 7, "Prédios afetados", "soma do nível escolhido"),
         (68, 42, 31, 7, "Bairros atingidos", "bairros com ≥ 1 prédio afetado"),
         (1, 21, 48, 18, "% de prédios afetados por bairro", "barras horizontais, só bairros atingidos, ordenadas"),
@@ -50,8 +50,9 @@ def main():
         (1, 6, 48, 12, "Curva: população afetada × nível do rio",
          "linha vertical em 5,35 m (recorde de maio/2024) + ponto no nível escolhido"),
         (52, 6, 47, 12, "Ranking dos bairros mais afetados", "tabela top 10: bairro, % prédios, pessoas"),
-        (1, 0, 98, 3.5, "⚠ Estimativas de uma simulação — não são previsão nem contagem oficial. População distribuída "
-         "igualmente entre todos os prédios (OSM). Dados corrigidos: ver relatório de limpeza.", "", AMARELO),
+        (1, -2, 98, 5, "⚠ Estimativas de uma simulação — não são previsão nem contagem oficial.\n"
+         "População distribuída igualmente entre todos os prédios (OSM). Dados corrigidos: ver relatório de limpeza.",
+         "", AMARELO),
     ])
     tela("wireframe_tela2.png", "Tela 2 — O que a enchente real de 2024 acrescenta à simulação? (IBGE × manchas MUP e INPE/ANA)", [
         (1, 52, 98, 6, "Filtros:  [Mancha: SPGG/MUP ▾ | INPE/ANA]   [Indicador: pessoas ▾ | domicílios | escolas | saúde]"
@@ -65,8 +66,8 @@ def main():
         (1, 6, 48, 12, "Porto Alegre: simulação × observado em 2024",
          "INCT no nível da Tela 1 (5,3 m) × mancha MUP (122.663) × INPE/ANA (152.258)", VERDE),
         (52, 6, 47, 12, "Escolas e unidades de saúde atingidas", "barras empilhadas por município"),
-        (1, 0, 98, 3.5, "Fontes: IBGE, Dados agregados para as áreas afetadas (ftp.ibge.gov.br/…/apoio_rs) — "
-         "manchas SPGG-RS 15/05/2024 e INPE/ANA v3 19/06/2024 — data de coleta exibida aqui", "", AMARELO),
+        (1, -2, 98, 5, "Fontes (com link): IBGE — Dados agregados para as áreas afetadas, Municípios do RS\n"
+         "manchas SPGG-RS/MUP 15/05/2024 e INPE/ANA v3 19/06/2024 — com a data de coleta", "", AMARELO),
     ])
 
 

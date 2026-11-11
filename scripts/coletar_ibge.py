@@ -12,6 +12,7 @@ Saída: dados/originais/ibge_*.xlsx (brutos, baixados só uma vez)
        dados/processados/ibge_areas_afetadas.csv (formato longo: município x mancha)
 """
 import datetime as dt
+import json
 import urllib.robotparser
 from pathlib import Path
 
@@ -44,24 +45,38 @@ INDICADORES = [
 ]
 
 
+REGISTRO = ORIG / "coleta_ibge.json"  # data de download de cada arquivo (versionado; o git não guarda mtime)
+HEADERS = {"User-Agent": "projeto-academico-enchentes"}
+
+
+def permitido_pelo_robots(url):
+    resp = requests.get("https://ftp.ibge.gov.br/robots.txt", timeout=30, headers=HEADERS)
+    if resp.status_code in (404, 410):  # sem robots.txt -> sem restrições (hoje é 404)
+        return True
+    resp.raise_for_status()  # 401/403/429/5xx: não presume permissão
+    robots = urllib.robotparser.RobotFileParser()
+    robots.parse(resp.text.splitlines())
+    return robots.can_fetch(HEADERS["User-Agent"], url)
+
+
 def baixar(nome, url):
     """Baixa o arquivo só se ainda não existe localmente (coleta responsável)."""
     destino = ORIG / nome
-    if destino.exists():
-        return destino
-    headers = {"User-Agent": "projeto-academico-enchentes"}
-    resp = requests.get("https://ftp.ibge.gov.br/robots.txt", timeout=30, headers=headers)
-    robots = urllib.robotparser.RobotFileParser()
-    robots.parse(resp.text.splitlines() if resp.ok else [])  # hoje é 404 -> tudo permitido
-    assert robots.can_fetch(headers["User-Agent"], url), f"robots.txt bloqueia {url}"
-    r = requests.get(url, timeout=120, headers=headers)
-    r.raise_for_status()
-    destino.write_bytes(r.content)
-    print(f"baixado: {destino.name} ({len(r.content) / 1024:.0f} KB)")
-    return destino
+    registro = json.loads(REGISTRO.read_text()) if REGISTRO.exists() else {}
+    if not destino.exists():
+        assert permitido_pelo_robots(url), f"robots.txt bloqueia {url}"
+        r = requests.get(url, timeout=120, headers=HEADERS)
+        r.raise_for_status()
+        destino.write_bytes(r.content)
+        registro[nome] = dt.date.today().isoformat()
+        print(f"baixado: {destino.name} ({len(r.content) / 1024:.0f} KB)")
+    elif nome not in registro:  # arquivo baixado antes de existir o registro
+        registro[nome] = dt.date.fromtimestamp(destino.stat().st_mtime).isoformat()
+    REGISTRO.write_text(json.dumps(registro, indent=1) + "\n")
+    return destino, registro[nome]
 
 
-def ler(arquivo, mancha, url):
+def ler(arquivo, data_coleta, mancha, url):
     bruto = pd.read_excel(arquivo, sheet_name=0, header=None)
     dados = bruto.iloc[2:, :20]  # pula as 2 linhas de cabeçalho; ignora as colunas de %
     dados.columns = (["cod_ibge", "municipio"]
@@ -75,14 +90,14 @@ def ler(arquivo, mancha, url):
     dados.insert(2, "mancha", mancha)
     dados["pct_pessoas_afetadas"] = (100 * dados["pessoas_afetados"] / dados["pessoas_total"]).round(2)
     dados["fonte_url"] = url
-    dados["data_coleta"] = dt.date.fromtimestamp(arquivo.stat().st_mtime).isoformat()
+    dados["data_coleta"] = data_coleta
     return dados
 
 
 def main():
     ORIG.mkdir(parents=True, exist_ok=True)
     PROC.mkdir(parents=True, exist_ok=True)
-    df = pd.concat([ler(baixar(nome, url), mancha, url)
+    df = pd.concat([ler(*baixar(nome, url), mancha, url)
                     for mancha, (nome, url) in FONTES.items()], ignore_index=True)
 
     # Checagens: Porto Alegre bate com os PDFs do IBGE e com a população do data.json do INCT

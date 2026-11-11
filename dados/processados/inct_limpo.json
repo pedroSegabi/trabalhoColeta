@@ -41,15 +41,15 @@
  {
   "nivel_m":3.0,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4685,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":""
+  "correcao":"valor modal do bairro"
  },
  {
   "nivel_m":3.0,
@@ -1263,15 +1263,15 @@
  {
   "nivel_m":3.1,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":3.1,
@@ -2485,15 +2485,15 @@
  {
   "nivel_m":3.2,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":3.2,
@@ -3707,15 +3707,15 @@
  {
   "nivel_m":3.3,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":3.3,
@@ -4929,15 +4929,15 @@
  {
   "nivel_m":3.4,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":3.4,
@@ -6151,15 +6151,15 @@
  {
   "nivel_m":3.5,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4685,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":""
+  "correcao":"valor modal do bairro"
  },
  {
   "nivel_m":3.5,
@@ -7373,15 +7373,15 @@
  {
   "nivel_m":3.6,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":3.6,
@@ -8595,15 +8595,15 @@
  {
   "nivel_m":3.7,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":3.7,
@@ -9817,15 +9817,15 @@
  {
   "nivel_m":3.8,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":3.8,
@@ -11039,15 +11039,15 @@
  {
   "nivel_m":3.9,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":3.9,
@@ -12261,15 +12261,15 @@
  {
   "nivel_m":4.0,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4685,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":""
+  "correcao":"valor modal do bairro"
  },
  {
   "nivel_m":4.0,
@@ -13483,15 +13483,15 @@
  {
   "nivel_m":4.1,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4674,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":"valor modal do bairro"
  },
  {
   "nivel_m":4.1,
@@ -14705,15 +14705,15 @@
  {
   "nivel_m":4.2,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":4.2,
@@ -15927,15 +15927,15 @@
  {
   "nivel_m":4.3,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":4.3,
@@ -17149,15 +17149,15 @@
  {
   "nivel_m":4.4,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":4.4,
@@ -18371,15 +18371,15 @@
  {
   "nivel_m":4.5,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4685,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":""
+  "correcao":"valor modal do bairro"
  },
  {
   "nivel_m":4.5,
@@ -19593,15 +19593,15 @@
  {
   "nivel_m":4.6,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":4.6,
@@ -20815,15 +20815,15 @@
  {
   "nivel_m":4.7,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":4.7,
@@ -22037,15 +22037,15 @@
  {
   "nivel_m":4.8,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":4.8,
@@ -23259,15 +23259,15 @@
  {
   "nivel_m":4.9,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":4.9,
@@ -24481,15 +24481,15 @@
  {
   "nivel_m":5.0,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4685,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":""
+  "correcao":"valor modal do bairro"
  },
  {
   "nivel_m":5.0,
@@ -25703,15 +25703,15 @@
  {
   "nivel_m":5.1,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":5.1,
@@ -26925,15 +26925,15 @@
  {
   "nivel_m":5.2,
   "bairro":"Arquipélago",
-  "affected_buildings":4685,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":99.94,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6407,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":5.2,
@@ -28147,15 +28147,15 @@
  {
   "nivel_m":5.3,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4688,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":""
+  "correcao":"valor modal do bairro"
  },
  {
   "nivel_m":5.3,
@@ -29369,15 +29369,15 @@
  {
   "nivel_m":5.4,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":5.4,
@@ -30591,15 +30591,15 @@
  {
   "nivel_m":5.5,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":5.5,
@@ -31813,15 +31813,15 @@
  {
   "nivel_m":5.6,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":5.6,
@@ -33035,15 +33035,15 @@
  {
   "nivel_m":5.7,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":5.7,
@@ -34257,15 +34257,15 @@
  {
   "nivel_m":5.8,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":5.8,
@@ -35479,15 +35479,15 @@
  {
   "nivel_m":5.9,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":5.9,
@@ -36701,15 +36701,15 @@
  {
   "nivel_m":6.0,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.0,
@@ -37923,15 +37923,15 @@
  {
   "nivel_m":6.1,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.1,
@@ -39145,15 +39145,15 @@
  {
   "nivel_m":6.2,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.2,
@@ -40367,15 +40367,15 @@
  {
   "nivel_m":6.3,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.3,
@@ -41589,15 +41589,15 @@
  {
   "nivel_m":6.4,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.4,
@@ -42811,15 +42811,15 @@
  {
   "nivel_m":6.5,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.5,
@@ -44033,15 +44033,15 @@
  {
   "nivel_m":6.6,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.6,
@@ -45255,15 +45255,15 @@
  {
   "nivel_m":6.7,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.7,
@@ -46477,15 +46477,15 @@
  {
   "nivel_m":6.8,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.8,
@@ -47699,15 +47699,15 @@
  {
   "nivel_m":6.9,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":6.9,
@@ -48921,15 +48921,15 @@
  {
   "nivel_m":7.0,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.0,
@@ -50143,15 +50143,15 @@
  {
   "nivel_m":7.1,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.1,
@@ -51365,15 +51365,15 @@
  {
   "nivel_m":7.2,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.2,
@@ -52587,15 +52587,15 @@
  {
   "nivel_m":7.3,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.3,
@@ -53809,15 +53809,15 @@
  {
   "nivel_m":7.4,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.4,
@@ -55031,15 +55031,15 @@
  {
   "nivel_m":7.5,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.5,
@@ -56253,15 +56253,15 @@
  {
   "nivel_m":7.6,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.6,
@@ -57475,15 +57475,15 @@
  {
   "nivel_m":7.7,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.7,
@@ -58697,15 +58697,15 @@
  {
   "nivel_m":7.8,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.8,
@@ -59919,15 +59919,15 @@
  {
   "nivel_m":7.9,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":7.9,
@@ -61141,15 +61141,15 @@
  {
   "nivel_m":8.0,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.0,
@@ -62363,15 +62363,15 @@
  {
   "nivel_m":8.1,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.1,
@@ -63585,15 +63585,15 @@
  {
   "nivel_m":8.2,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.2,
@@ -64807,15 +64807,15 @@
  {
   "nivel_m":8.3,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.3,
@@ -66029,15 +66029,15 @@
  {
   "nivel_m":8.4,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.4,
@@ -67251,15 +67251,15 @@
  {
   "nivel_m":8.5,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.5,
@@ -68473,15 +68473,15 @@
  {
   "nivel_m":8.6,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.6,
@@ -69695,15 +69695,15 @@
  {
   "nivel_m":8.7,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.7,
@@ -70917,15 +70917,15 @@
  {
   "nivel_m":8.8,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.8,
@@ -72139,15 +72139,15 @@
  {
   "nivel_m":8.9,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":8.9,
@@ -73361,15 +73361,15 @@
  {
   "nivel_m":9.0,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.0,
@@ -74583,15 +74583,15 @@
  {
   "nivel_m":9.1,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.1,
@@ -75805,15 +75805,15 @@
  {
   "nivel_m":9.2,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.2,
@@ -77027,15 +77027,15 @@
  {
   "nivel_m":9.3,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.3,
@@ -78249,15 +78249,15 @@
  {
   "nivel_m":9.4,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.4,
@@ -79471,15 +79471,15 @@
  {
   "nivel_m":9.5,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.5,
@@ -80693,15 +80693,15 @@
  {
   "nivel_m":9.6,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.6,
@@ -81915,15 +81915,15 @@
  {
   "nivel_m":9.7,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.7,
@@ -83137,15 +83137,15 @@
  {
   "nivel_m":9.8,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.8,
@@ -84359,15 +84359,15 @@
  {
   "nivel_m":9.9,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":9.9,
@@ -85581,15 +85581,15 @@
  {
   "nivel_m":10.0,
   "bairro":"Arquipélago",
-  "affected_buildings":4688,
+  "affected_buildings":4680,
   "total_buildings":4688,
-  "percentage":100.0,
+  "percentage":99.83,
   "population":6411,
-  "affected_population":6411,
+  "affected_population":6400,
   "affected_buildings_orig":4680,
   "percentage_orig":100,
   "affected_population_orig":6411,
-  "correcao":"máximo acumulado"
+  "correcao":""
  },
  {
   "nivel_m":10.0,
