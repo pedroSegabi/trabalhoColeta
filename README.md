@@ -18,7 +18,7 @@ O dashboard responde a duas perguntas:
 | Pedro Ernesto |
 | Ana Luiza Romanini |
 | Enrico Pheula |
-| Fransico Cassol |
+| Francisco Cassol |
 | Pedro Fam |
 
 ## Estrutura
