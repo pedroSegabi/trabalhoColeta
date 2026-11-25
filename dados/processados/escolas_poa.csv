@@ -1,0 +1,362 @@
+escola,rede,tipo,bairro,origem_bairro,bairro_cadastro,data_extracao
+EMEI JP CANTINHO AMIGO,Municipal,EDUCAÇÃO INFANTIL,Azenha,ponto na malha oficial,Azenha,2025-01-01 04:45:13.050
+EMEI JP CIRANDINHA,Municipal,EDUCAÇÃO INFANTIL,Moinhos de Vento,ponto na malha oficial,Independência,2025-01-01 04:45:13.050
+EMEI JP GIRAFINHA,Municipal,EDUCAÇÃO INFANTIL,Santana,ponto na malha oficial,Santana,2025-01-01 04:45:13.050
+EMEI JP MEU AMIGUINHO,Municipal,EDUCAÇÃO INFANTIL,Floresta,ponto na malha oficial,Floresta,2025-01-01 04:45:13.050
+EMEI JP PASSARINHO DOURADO,Municipal,EDUCAÇÃO INFANTIL,São Geraldo,ponto na malha oficial,São Geraldo,2025-01-01 04:45:13.050
+EMEI JP PATINHO FEIO,Municipal,EDUCAÇÃO INFANTIL,São Geraldo,ponto na malha oficial,São Geraldo,2025-01-01 04:45:13.050
+EMEI JP PICA-PAU AMARELO,Municipal,EDUCAÇÃO INFANTIL,Centro Histórico,ponto na malha oficial,Centro Histórico,2025-01-01 04:45:13.050
+EMEI BAIRRO CAVALHADA,Municipal,EDUCAÇÃO INFANTIL,Cavalhada,ponto na malha oficial,Cavalhada,2025-01-01 04:45:13.050
+EMEI ÉRICO VERÍSSIMO,Municipal,EDUCAÇÃO INFANTIL,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+EMEI JARDIM BENTO GONÇALVES,Municipal,EDUCAÇÃO INFANTIL,Partenon,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+EMEI DO JARDIM SALOMONI,Municipal,EDUCAÇÃO INFANTIL,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+EMEI DA VILA MAX GEISS (ESCOLA POTY),Municipal,EDUCAÇÃO INFANTIL,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEI PROF MARIA HELENA CAVALHEIRO GUSMÃO,Municipal,EDUCAÇÃO INFANTIL,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+EMEI VALE VERDE,Municipal,EDUCAÇÃO INFANTIL,Jardim Sabará,ponto na malha oficial,Jardim Sabará,2025-01-01 04:45:13.050
+EMEI DA VILA ELIZABETH,Municipal,EDUCAÇÃO INFANTIL,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+EMEI DA VILA FLORESTA,Municipal,EDUCAÇÃO INFANTIL,Jardim Floresta,ponto na malha oficial,Jardim Floresta,2025-01-01 04:45:13.050
+EMEI MARIA MARQUES FERNANDES,Municipal,EDUCAÇÃO INFANTIL,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+EMEI VILA NOVA,Municipal,EDUCAÇÃO INFANTIL,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+EMEI DOM LUIZ DE NADAL,Municipal,EDUCAÇÃO INFANTIL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEI FLORÊNCIA VURLOD SOCIAS,Municipal,EDUCAÇÃO INFANTIL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEI DA VILA NOVA RESTINGA,Municipal,EDUCAÇÃO INFANTIL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEI DA VILA DA PÁSCOA,Municipal,EDUCAÇÃO INFANTIL,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEI DA VILA TRONCO,Municipal,EDUCAÇÃO INFANTIL,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+EMEI DR WALTER SILBER,Municipal,EDUCAÇÃO INFANTIL,Vila São José,ponto na malha oficial,Vila São José,2025-01-01 04:45:13.050
+EMEI DOS MUNICIPÁRIOS TIO BARNABÉ,Municipal,EDUCAÇÃO INFANTIL,Azenha,ponto na malha oficial,Azenha,2025-01-01 04:45:13.050
+EMEI PARQUE DOS MAIAS II,Municipal,EDUCAÇÃO INFANTIL,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEI DA VILA NOVA SÃO CARLOS,Municipal,EDUCAÇÃO INFANTIL,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+EMEI DA VILA MAPA II,Municipal,EDUCAÇÃO INFANTIL,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+EMEI ILHA DA PINTADA,Municipal,EDUCAÇÃO INFANTIL,Arquipélago,ponto na malha oficial,Arquipélago,2025-01-01 04:45:13.050
+EMEI JARDIM CAMAQUÃ,Municipal,EDUCAÇÃO INFANTIL,Camaquã,ponto na malha oficial,Camaquã,2025-01-01 04:45:13.050
+EMEI PADRE ÂNGELO COSTA,Municipal,EDUCAÇÃO INFANTIL,Vila São José,ponto na malha oficial,Vila São José,2025-01-01 04:45:13.050
+EMEI PROTÁSIO ALVES,Municipal,EDUCAÇÃO INFANTIL,Jardim Sabará,ponto na malha oficial,Jardim Sabará,2025-01-01 04:45:13.050
+EMEI NOVA GLEBA,Municipal,EDUCAÇÃO INFANTIL,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEI DA VILA SANTA ROSA,Municipal,EDUCAÇÃO INFANTIL,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEI HUMAITÁ,Municipal,EDUCAÇÃO INFANTIL,Humaitá,ponto na malha oficial,Humaitá,2025-01-01 04:45:13.050
+EMEI PONTA GROSSA,Municipal,EDUCAÇÃO INFANTIL,Ponta Grossa,ponto na malha oficial,Ponta Grossa,2025-01-01 04:45:13.050
+EMEI DA VILA VALNERI ANTUNES,Municipal,EDUCAÇÃO INFANTIL,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+EMEI OSMAR DOS SANTOS FREITAS,Municipal,EDUCAÇÃO INFANTIL,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+EMEI PAULO FREIRE,Municipal,EDUCAÇÃO INFANTIL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEI MAMÃE CORUJA,Municipal,EDUCAÇÃO INFANTIL,Santana,ponto na malha oficial,Azenha,2025-01-01 04:45:13.050
+EMEI MIGUEL GRANATO VELASQUEZ,Municipal,EDUCAÇÃO INFANTIL,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+EMEI SANTO EXPEDITO,Municipal,EDUCAÇÃO INFANTIL,Parque Santa Fé,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEF AFONSO GUERREIRO LIMA,Municipal,ENSINO FUNDAMENTAL,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+EMEF SEN ALBERTO PASQUALINI,Municipal,ENSINO FUNDAMENTAL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEF AMÉRICA,Municipal,ENSINO FUNDAMENTAL,Coronel Aparício Borges,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+EMEF ARAMY SILVA,Municipal,ENSINO FUNDAMENTAL,Cristal,ponto na malha oficial,Camaquã,2025-01-01 04:45:13.050
+EMEF DÉCIO MARTINS COSTA,Municipal,ENSINO FUNDAMENTAL,Santa Rosa de Lima,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+EMEF DOLORES ALCARAZ CALDAS,Municipal,ENSINO FUNDAMENTAL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEF PROF GILBERTO JORGE GONÇALVES DA SILVA,Municipal,ENSINO FUNDAMENTAL,Ipanema,ponto na malha oficial,Ipanema,2025-01-01 04:45:13.050
+EMEF GRANDE ORIENTE DO RGS,Municipal,ENSINO FUNDAMENTAL,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEF GOV ILDO MENEGHETTI,Municipal,ENSINO FUNDAMENTAL,Santa Rosa de Lima,ponto na malha oficial,Santa Rosa de Lima,2025-01-01 04:45:13.050
+EMEF JOSÉ LOUREIRO DA SILVA,Municipal,ENSINO FUNDAMENTAL,Cristal,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+EMEF PRES JOÃO BELCHIOR MARQUES GOULART,Municipal,ENSINO FUNDAMENTAL,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+EMEF PROF JUDITH MACEDO DE ARAÚJO,Municipal,ENSINO FUNDAMENTAL,Vila São José,ponto na malha oficial,Vila São José,2025-01-01 04:45:13.050
+EMEF PROF LARRY JOSÉ RIBEIRO ALVES,Municipal,ENSINO FUNDAMENTAL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEF LEOCÁDIA FELIZARDO PRESTES,Municipal,ENSINO FUNDAMENTAL,Cavalhada,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+EMEB DR LIBERATO SALZANO VIEIRA DA CUNHA,Municipal,"EDUCAÇÃO INFANTIL, ENSINO FUNDAMENTAL, ENSINO MÉDIO, NORMAL/MAGISTÉRIO, PROFISSIONALIZANTE",Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+EMEF VER MARTIM ARANHA,Municipal,ENSINO FUNDAMENTAL,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+EMEF NOSSA SENHORA DE FÁTIMA,Municipal,ENSINO FUNDAMENTAL,Bom Jesus,ponto na malha oficial,Bom Jesus,2025-01-01 04:45:13.050
+EMEF PEPITA DE LEÃO,Municipal,ENSINO FUNDAMENTAL,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+EMEF PRESIDENTE VARGAS,Municipal,ENSINO FUNDAMENTAL,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+EMEF HEITOR VILLA LOBOS,Municipal,ENSINO FUNDAMENTAL,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+EMEF JOÃO ANTONIO SATTE,Municipal,ENSINO FUNDAMENTAL,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEF PROF ANA IRIS DO AMARAL,Municipal,ENSINO FUNDAMENTAL,Morro Santana,ponto na malha oficial,Morro Santana,2025-01-01 04:45:13.050
+EMEF JOSE MARIANO BECK,Municipal,ENSINO FUNDAMENTAL,Bom Jesus,ponto na malha oficial,Jardim Carvalho,2025-01-01 04:45:13.050
+EMEF VER CARLOS PESSOA DE BRUM,Municipal,ENSINO FUNDAMENTAL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEEF PROF ELYSEU PAGLIOLI,Municipal,ENSINO FUNDAMENTAL,Cristal,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+EMEF GABRIEL OBINO,Municipal,ENSINO FUNDAMENTAL,Teresópolis,ponto na malha oficial,Cascata,2025-01-01 04:45:13.050
+EMEF VER ANTÔNIO GIÚDICE,Municipal,ENSINO FUNDAMENTAL,Humaitá,ponto na malha oficial,Humaitá,2025-01-01 04:45:13.050
+EMEF LAURO RODRIGUES,Municipal,ENSINO FUNDAMENTAL,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+EMEF LIDOVINO FANTON,Municipal,ENSINO FUNDAMENTAL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEEF PROF LYGIA MORRONE AVERBUCK,Municipal,ENSINO FUNDAMENTAL,Jardim do Salso,ponto na malha oficial,Jardim do Salso,2025-01-01 04:45:13.050
+EMEF DEP MARCÍRIO GOULART LOUREIRO,Municipal,ENSINO FUNDAMENTAL,Coronel Aparício Borges,ponto na malha oficial,Coronel Aparício Borges,2025-01-01 04:45:13.050
+EMEF DEP VICTOR ISSLER,Municipal,ENSINO FUNDAMENTAL,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+EMEEF PROF LUIZ FRANCISCO LUCENA BORGES,Municipal,ENSINO FUNDAMENTAL,Jardim Sabará,ponto na malha oficial,Jardim Sabará,2025-01-01 04:45:13.050
+EMEF JEAN PIAGET,Municipal,ENSINO FUNDAMENTAL,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+EMEF PROF ANÍSIO TEIXEIRA,Municipal,ENSINO FUNDAMENTAL,Aberta dos Morros,ponto na malha oficial,Hípica,2025-01-01 04:45:13.050
+EMEEF TRISTÃO SUCUPIRA VIANNA,Municipal,ENSINO FUNDAMENTAL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEF SÃO PEDRO,Municipal,ENSINO FUNDAMENTAL,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+EMEF SAINT HILAIRE,Municipal,ENSINO FUNDAMENTAL,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+EMEF WENCESLAU FONTOURA,Municipal,ENSINO FUNDAMENTAL,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+EMEF CAMPOS DO CRISTAL,Municipal,ENSINO FUNDAMENTAL,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+EMEF MIGRANTES,Municipal,ENSINO FUNDAMENTAL,Anchieta,ponto na malha oficial,Anchieta,2025-01-01 04:45:13.050
+EMEF VILA MONTE CRISTO,Municipal,ENSINO FUNDAMENTAL,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+EMEF MORRO DA CRUZ,Municipal,ENSINO FUNDAMENTAL,Vila São José,ponto na malha oficial,Vila São José,2025-01-01 04:45:13.050
+EMEF NEUSA GOULART BRIZOLA,Municipal,ENSINO FUNDAMENTAL,Cavalhada,ponto na malha oficial,Cavalhada,2025-01-01 04:45:13.050
+EMEF PORTO ALEGRE,Municipal,EJA,Centro Histórico,ponto na malha oficial,Centro Histórico,2025-01-01 04:45:13.050
+EMEF CHICO MENDES,Municipal,ENSINO FUNDAMENTAL,Mário Quintana,ponto na malha oficial,Morro Santana,2025-01-01 04:45:13.050
+EMEF MARIO QUINTANA,Municipal,ENSINO FUNDAMENTAL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEF CHAPÉU DO SOL,Municipal,ENSINO FUNDAMENTAL,Chapéu do Sol,ponto na malha oficial,Chapéu do Sol,2025-01-01 04:45:13.050
+EMEF TIMBAÚVA,Municipal,ENSINO FUNDAMENTAL,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+EMEF NOSSA SENHORA DO CARMO,Municipal,ENSINO FUNDAMENTAL,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+EMEF DE SURDOS BILINGUE SALOMÃO WATNICK,Municipal,ENSINO FUNDAMENTAL,Partenon,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+EMEF RINCÃO,Municipal,ENSINO FUNDAMENTAL,Belém Velho,ponto na malha oficial,Belém Velho,2025-01-01 04:45:13.050
+EMEF MORADAS DA HÍPICA,Municipal,ENSINO FUNDAMENTAL,Hípica,ponto na malha oficial,Hípica,2025-01-01 04:45:13.050
+EMEF PORTO NOVO,Municipal,ENSINO FUNDAMENTAL,Santa Rosa de Lima,ponto na malha oficial,Santa Rosa de Lima,2025-01-01 04:45:13.050
+EMEF JOÃO CARLOS D'ÁVILA PAIXÃO CÔRTES - LAÇADOR,Municipal,NI,Vila Ipiranga,ponto na malha oficial,Vila Ipiranga,2025-01-01 04:45:13.050
+EMEM EMÍLIO MEYER,Municipal,"EDUCAÇÃO INFANTIL, ENSINO FUNDAMENTAL, ENSINO MÉDIO, NORMAL/MAGISTÉRIO",Medianeira,ponto na malha oficial,Medianeira,2025-01-01 04:45:13.050
+CMET PAULO FREIRE,Municipal,EJA,Santana,ponto na malha oficial,Santana,2025-01-01 04:45:13.050
+5001 IEI MÃEZINHA DO CÉU,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5002 IEI JOÃO PAULO II,Conveniada,NI,Farrapos,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5003 EEI ESTRELINHA DO CÉU,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5004 EEI ESTRELINHA DO AMANHÃ,Conveniada,NI,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5005 IEI VILA UNIÃO,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5006 EEI TRENZINHO DA ALEGRIA,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5007 IEI EUGÊNIA CONTE,Conveniada,NI,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5008 EEI  JOANA D'ARC,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5009 ECEI IRMÃO CLÓVIS ROTAVA,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5010 IEI ACOMPAR NUCLEO II - SANTO AGOSTINHO,Conveniada,NI,Santa Rosa de Lima,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5012 ECEI UMBERTO NEGRINI,Conveniada,NI,Navegantes,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5013 IEI SANTA LUIZA,Conveniada,NI,Farrapos,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5016 IEI OSICOM I,Conveniada,NI,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+5017 EEI NEGRINHO DO PASTOREIO,Conveniada,NI,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5018 IEI ESPERANÇA CORDEIRO,Conveniada,NI,Costa e Silva,ponto na malha oficial,Costa e Silva,2025-01-01 04:45:13.050
+5019 IEI VOVÔ CAZEMIRO -ACM CRUZEIRO,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5020 EEI MADRE TERESA,Conveniada,NI,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5021 EEI GALPÃOZINHO,Conveniada,NI,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5023 EEI VO ANA,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5024 IEI LAR DA CRIANÇA MENINO JESUS DE PRAGA,Conveniada,NI,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5026 IEI CRIANÇA ESPERANÇA,Conveniada,NI,Costa e Silva,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5027 IEI GIRASSOL,Conveniada,NI,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5028 EEI SÃO VICENTE DE PAULO,Conveniada,NI,Jardim Itu,ponto na malha oficial,Jardim Itu,2025-01-01 04:45:13.050
+5029 EEI CANTINHO DOS PIAS,Conveniada,NI,Jardim Carvalho,ponto na malha oficial,Jardim Carvalho,2025-01-01 04:45:13.050
+5030 EEI TRÊS CORAÇÕES,Conveniada,NI,Bom Jesus,ponto na malha oficial,Bom Jesus,2025-01-01 04:45:13.050
+5031 IEI TIA ROSA,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5032 IEI JERUSALÉM BEITH SHALOM,Conveniada,NI,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+5033 IEI ALAN MARIA TEREZA,Conveniada,NI,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+5034 IEI ALAN BOM JESUS,Conveniada,NI,Bom Jesus,ponto na malha oficial,Bom Jesus,2025-01-01 04:45:13.050
+5035 EEI NOSSA SENHORA APARECIDA VILA PINTO,Conveniada,NI,Bom Jesus,ponto na malha oficial,Bom Jesus,2025-01-01 04:45:13.050
+5036 EEI MUNDO CRIANÇA,Conveniada,NI,Morro Santana,ponto na malha oficial,Morro Santana,2025-01-01 04:45:13.050
+5037 IEI AELCA,Conveniada,NI,Vila Jardim,ponto na malha oficial,Vila Jardim,2025-01-01 04:45:13.050
+5038 IEI NOSSA SENHORA DE FÁTIMA -BOM JESUS,Conveniada,NI,Bom Jesus,ponto na malha oficial,Bom Jesus,2025-01-01 04:45:13.050
+5040 IEI SAGRADA FAMÍLIA,Conveniada,NI,Morro Santana,ponto na malha oficial,Morro Santana,2025-01-01 04:45:13.050
+5041 EEI MENSAGEIROS DA LUZ,Conveniada,NI,Petrópolis,ponto na malha oficial,Petrópolis,2025-01-01 04:45:13.050
+5042 IEI PIU PIU,Conveniada,NI,Santana,ponto na malha oficial,Santana,2025-01-01 04:45:13.050
+5043 IEI LUPICINIO RODRIGUES,Conveniada,NI,Menino Deus,ponto na malha oficial,Menino Deus,2025-01-01 04:45:13.050
+5044 EEI CASA DO PEQUENINO,Conveniada,NI,Azenha,ponto na malha oficial,Azenha,2025-01-01 04:45:13.050
+5045 EEI SOMAI,Conveniada,NI,Bom Jesus,ponto na malha oficial,Bom Jesus,2025-01-01 04:45:13.050
+5046 IEI NSA SRA DE FÁTIMA NOVO MUNDO,Conveniada,NI,Mário Quintana,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5048 IEI HELOISA BECKER,Conveniada,NI,Santana,ponto na malha oficial,Rio Branco,2025-01-01 04:45:13.050
+5049 IEI BRINCANDO DE CIRANDA,Conveniada,NI,Bom Jesus,ponto na malha oficial,Jardim Carvalho,2025-01-01 04:45:13.050
+5050 EEI NSA SRA APARECIDA SÃO PEDRO,Conveniada,NI,Partenon,ponto na malha oficial,Praia de Belas,2025-01-01 04:45:13.050
+5051 EEI TURMA DO BARULHO,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5052 EEI SÃO PEDRO,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5053 IEI BALÃO MÁGICO,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5054 EEI CASA DA CRIANÇA ALGODÃO DOCE,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5055 IEI VOVÓ IDA,Conveniada,NI,Vila São José,ponto na malha oficial,Vila João Pessoa,2025-01-01 04:45:13.050
+5056 EEI PAINEIRAS,Conveniada,NI,Vila João Pessoa,ponto na malha oficial,Vila João Pessoa,2025-01-01 04:45:13.050
+5057 EEI CAMPO DA TUCA,Conveniada,NI,Vila João Pessoa,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+5058 EEI TOPO GIGIO,Conveniada,NI,Vila São José,ponto na malha oficial,Vila São José,2025-01-01 04:45:13.050
+5059 EEI ACOMUR,Conveniada,NI,Vila São José,ponto na malha oficial,Vila São José,2025-01-01 04:45:13.050
+5060 IEI MURIALDO,Conveniada,NI,Vila São José,ponto na malha oficial,Vila São José,2025-01-01 04:45:13.050
+5061 IEI VÓ BELINHA,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5062 IEI ESTRELA MAGICA,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5063 IEI NOSSA SENHORA APARECIDA -VILA PINHAL,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5064 EEI RECREIO DA DIVISA,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5065 IEI ARCO IRIS ENCANTADO,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5066 EEI MEU NENE,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Agronomia,2025-01-01 04:45:13.050
+5067 IEI NOSSA SENHORA DA GLORIA,Conveniada,NI,Glória,ponto na malha oficial,Cascata,2025-01-01 04:45:13.050
+5069 IEI CRECHE LAR DA CRIANCA,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5070 IEI CENEAMM 1 DE MAIO,Conveniada,NI,Cascata,ponto na malha oficial,Cascata,2025-01-01 04:45:13.050
+5071 EEI CRIANÇA FELIZ,Conveniada,NI,Cascata,ponto na malha oficial,Cascata,2025-01-01 04:45:13.050
+5072 IEI AMAVTRON,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5073 EEI MATO GROSSO,Conveniada,NI,Cristal,ponto na malha oficial,Teresópolis,2025-01-01 04:45:13.050
+5074 IEI BOA ESPERANÇA,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5075 IEI MARIA DOLABELLA PORTELA,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5076 EEI DOM ORIONE,Conveniada,NI,Cristal,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+5077 EEI NOSSA SENHORA DE NAZARÉ-DOM ORIONE,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5081 EEI BRIZOLLINHA,Conveniada,NI,Cascata,ponto na malha oficial,Cascata,2025-01-01 04:45:13.050
+5082 IEI MEDIANEIRA,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5083 EEI CASA DE NAZARE CENTRO DE APOIO AO MENOR,Conveniada,NI,Cavalhada,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+5084 EEI CANTINHO DA CRIANÇA,Conveniada,NI,Coronel Aparício Borges,ponto na malha oficial,Coronel Aparício Borges,2025-01-01 04:45:13.050
+5085 EEI BATILANOS,Conveniada,NI,Cascata,ponto na malha oficial,Cascata,2025-01-01 04:45:13.050
+5086 EEI ARAPEÍ,Conveniada,NI,Cristal,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+5087 IEI NUCLEO SAO FRANCISCO,Conveniada,NI,Cristal,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+5088 IEI VINDE A MIM AS CRIANCINHAS,Conveniada,NI,Belém Velho,ponto na malha oficial,Belém Velho,2025-01-01 04:45:13.050
+5089 EEI VÓ MARIA,Conveniada,NI,Nonoai,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+5091 IEI MADRE BRIGIDA POSTORINO,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5097 EEI PASSO A PASSO,Conveniada,NI,Ipanema,ponto na malha oficial,Aberta dos Morros,2025-01-01 04:45:13.050
+5099 EEI AMIGO SPINELLI,Conveniada,NI,Tristeza,ponto na malha oficial,Tristeza,2025-01-01 04:45:13.050
+5100 IEI ISABEL VIEIRA,Conveniada,NI,Aberta dos Morros,ponto na malha oficial,Hípica,2025-01-01 04:45:13.050
+5101 EEI BEM-ME-QUER,Conveniada,NI,Cavalhada,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+5102 IEI RENASCER VILA AMERICA,Conveniada,NI,Camaquã,ponto na malha oficial,Camaquã,2025-01-01 04:45:13.050
+5105 EEI ANANDA MARGA RESTINGA VELHA,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5106 EEI NOVA SANTA RITA,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5107 EEI ARCO IRIS I,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5108 EEI PADRE PEDRO LEONARDI I,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5109 EEI ANANDA MARGA RESTINGA NOVA 1,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5110 EEI ANANDA MARGA JUCA BATISTA,Conveniada,NI,Ponta Grossa,ponto na malha oficial,Ponta Grossa,2025-01-01 04:45:13.050
+5111 EEI ANANDA MARGA BARRO VERMELHO,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5112 EEI SANTA CATARINA DA RESTINGA,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5113 EEI  ANJINHO DA GUARDA,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5114 EEI CAPELA NAVEGANTES,Conveniada,NI,Vila Assunção,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+5115 IEI SANTA ANITA,Conveniada,NI,Nonoai,ponto na malha oficial,Nonoai,2025-01-01 04:45:13.050
+5116 IEI COLORINDO MEU DIA,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5117 EEI NOSSA SENHORA APARECIDA LOT MARIANTE,Conveniada,NI,Belém Velho,ponto na malha oficial,Belém Velho,2025-01-01 04:45:13.050
+5119 EEI CRIANÇA CIDADÃ,Conveniada,NI,Rubem Berta,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5120 EEI MEDIANEIRA NOSSO SONHO I,Conveniada,NI,Passo D'Areia,ponto na malha oficial,Passo D'Areia,2025-01-01 04:45:13.050
+5121 IEI NSA SRA APARECIDA IPANEMA,Conveniada,NI,Ipanema,ponto na malha oficial,Ipanema,2025-01-01 04:45:13.050
+5123 EEI GOTINHAS DE AMOR,Conveniada,NI,Vila Conceição,ponto na malha oficial,Vila Conceição,2025-01-01 04:45:13.050
+5124 EEI ANTONIO GIANELLI - LOT CAVALHADA,Conveniada,NI,Cavalhada,ponto na malha oficial,Cavalhada,2025-01-01 04:45:13.050
+5127 EEI VILA GAÚCHA,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5128 IEI TIA HELENA,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5129 IEI RENOVAR DA ESPERANÇA II,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5130 IEI TECNOBABY,Conveniada,NI,Farrapos,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5131 IEI SÃO VICENTE DE PAULO,Conveniada,NI,São Geraldo,ponto na malha oficial,São Geraldo,2025-01-01 04:45:13.050
+5132 EEI ANANDA MARGA RESTINGA NOVA 2,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5133 EEI AMOVIR,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5134 ECEI MARISTA BOA MÃE,Conveniada,NI,Farrapos,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5135 EEI ANTONIO GIANELLI,Conveniada,NI,Belém Velho,ponto na malha oficial,Belém Velho,2025-01-01 04:45:13.050
+5136 IEI UNIÃO ESPERANÇA,Conveniada,NI,Belém Velho,ponto na malha oficial,Belém Velho,2025-01-01 04:45:13.050
+5138 IEI BRINCANDO E APRENDENDO,Conveniada,NI,Farrapos,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5139 IEI ACOMPAR NUCLEO III,Conveniada,NI,Santa Rosa de Lima,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5140 EEI JESUS MENINO,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5141 EEI ABRASCE LOTEAMENTO PAMPA,Conveniada,NI,Farrapos,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5142 IEI CRESCER COM LAZER,Conveniada,NI,Mário Quintana,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5145 IEI  PRINCESA ISABEL,Conveniada,NI,Azenha,ponto na malha oficial,Azenha,2025-01-01 04:45:13.050
+5146 EEI CHACRINHA,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5147 EEI PADRE PEDRO LEONARDI II,Conveniada,NI,Camaquã,ponto na malha oficial,Camaquã,2025-01-01 04:45:13.050
+5149 EEI EGIDIO PICCOLI,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5150 ECEI PADRE LUIZ PEDROLLO,Conveniada,NI,Partenon,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+5151 EEI BOA VISTA,Conveniada,NI,Boa Vista,ponto na malha oficial,Boa Vista,2025-01-01 04:45:13.050
+5152 IEI PEQUENO PRINCIPE,Conveniada,NI,Jardim Carvalho,ponto na malha oficial,Jardim Carvalho,2025-01-01 04:45:13.050
+5153 EEI  MEU DENGO,Conveniada,NI,Costa e Silva,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5154 IEI MUNDO COLORIDO,Conveniada,NI,Humaitá,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5155 IEI RENOVAR DA ESPERANÇA,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5156 IEI LAR ESPERANÇA,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5157 EEI MARISTA RENASCER,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5158 IEI ESCOLA DA VIDA,Conveniada,NI,Cristal,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5159 EEI TIA IARA,Conveniada,NI,Cristal,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+5160 EEI ANJINHOS DE CRISTAL,Conveniada,NI,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+5161 EEI RAIO DE SOL,Conveniada,NI,Campo Novo,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+5163 EEI  PLANETA INFANTIL,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5164 EEI ARCO ÍRIS II,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5165 IEI VOVÓ BELINHA,Conveniada,NI,Bom Jesus,ponto na malha oficial,Bom Jesus,2025-01-01 04:45:13.050
+5166 EEI ABRASCE PARTENON,Conveniada,NI,Coronel Aparício Borges,ponto na malha oficial,Coronel Aparício Borges,2025-01-01 04:45:13.050
+5167 ECEI CRECHE PADRE IGNÁCIO VALLE,Conveniada,NI,Cristo Redentor,ponto na malha oficial,Cristo Redentor,2025-01-01 04:45:13.050
+5168 EEI TIA BETH,Conveniada,NI,Bom Jesus,ponto na malha oficial,Bom Jesus,2025-01-01 04:45:13.050
+5169 IEI SONHO MEU,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5170 IEI  INTEGRAÇÃO DOS ANJOS,Conveniada,NI,Jardim Botânico,ponto na malha oficial,Jardim Botânico,2025-01-01 04:45:13.050
+5172 EEI POPULAR NOVA GERAÇÃO,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5173 EEI CASA NAZARÉ,Conveniada,NI,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+5175 IEI OSICOM II,Conveniada,NI,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+5176 IEI OSICOM III,Conveniada,NI,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+5179 IEI DUTRA JARDIM,Conveniada,NI,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5180 EEI PORTAL ENCANTADO,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5181 EEI PLANETA MÁGICO,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Agronomia,2025-01-01 04:45:13.050
+5182 EEI CRECHE NAVEGANTES,Conveniada,NI,São Geraldo,ponto na malha oficial,São Geraldo,2025-01-01 04:45:13.050
+5183 EEI FAVO DE MEL  VILA ELIZABETH,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5184 EEI JARDIM IPIRANGA,Conveniada,NI,Jardim Europa,ponto na malha oficial,Vila Ipiranga,2025-01-01 04:45:13.050
+5185 EEI SÃO MARCOS,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Agronomia,2025-01-01 04:45:13.050
+5186 EEI CANTINHO ENCANTADO,Conveniada,NI,Belém Novo,ponto na malha oficial,Belém Novo,2025-01-01 04:45:13.050
+5189 IEI CORAÇÃO VALENTE,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5190 EEI PINGUINHOS DE OURO,Conveniada,NI,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+5191 IEI CASA DA CRIANÇA N SRA AUXILIADORA,Conveniada,NI,Auxiliadora,ponto na malha oficial,Auxiliadora,2025-01-01 04:45:13.050
+5192 EEI RENASCER DA ESPERANÇA,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5193 EEI TREVO DE OURO,Conveniada,NI,Guarujá,ponto na malha oficial,Guarujá,2025-01-01 04:45:13.050
+5194 EEI PLANETA DO SABER,Conveniada,NI,Jardim Leopoldina,ponto na malha oficial,Jardim Leopoldina,2025-01-01 04:45:13.050
+5195 IEI ANJO DAS FLORES,Conveniada,NI,Arquipélago,ponto na malha oficial,Arquipélago,2025-01-01 04:45:13.050
+5196 ECEI PADRE NATAL,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5197 EEI TIO ZÉ,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5198 EEI PEQUENOS PESQUISADORES,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5199 EEI MUNDO DA IMAGINAÇÃO,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5200 EEI A CAMINHO DO SOL,Conveniada,NI,Hípica,ponto na malha oficial,Aberta dos Morros,2025-01-01 04:45:13.050
+5201 IEI PEDAÇO DE GENTE,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5202 EEI GIRASSOL LAMI,Conveniada,NI,Lami,ponto na malha oficial,Lami,2025-01-01 04:45:13.050
+5203 EEI AMIGO GERMANO,Conveniada,NI,Santana,ponto na malha oficial,Farroupilha,2025-01-01 04:45:13.050
+5204 EEI CRECHE ELSINHA,Conveniada,NI,Medianeira,ponto na malha oficial,Medianeira,2025-01-01 04:45:13.050
+5205 IEI OSICOM IV - NOSSA SENHORA DA SALETE,Conveniada,NI,Morro Santana,ponto na malha oficial,Morro Santana,2025-01-01 04:45:13.050
+5207 EEI IRMÃO MÁRIO FRIGO,Conveniada,NI,Farrapos,ponto na malha oficial,Farrapos,2025-01-01 04:45:13.050
+5208 IEI VITÓRIA,Conveniada,NI,Humaitá,ponto na malha oficial,Humaitá,2025-01-01 04:45:13.050
+5209 IEI ACOMPAR V - LUISA CASAGRANDE LEWANDOWSKI,Conveniada,NI,Santa Rosa de Lima,ponto na malha oficial,Santa Rosa de Lima,2025-01-01 04:45:13.050
+5210 IEI EREMI,Conveniada,NI,Partenon,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+5211 EEI JARDIM DO FUTURO,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5212 ECEI SÃO JORGE,Conveniada,NI,Ponta Grossa,ponto na malha oficial,Ponta Grossa,2025-01-01 04:45:13.050
+5213 IEI PATATI PATATA,Conveniada,NI,Santa Rosa de Lima,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5216 EEI CONSTRUINDO O AMANHÃ,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5217 EEI EDUARDA PUJOL ZANIRATTI,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5218 IEI CARLOS ALBERTO TEJERA DE RÉ,Conveniada,NI,Teresópolis,ponto na malha oficial,Cascata,2025-01-01 04:45:13.050
+5219 IEI PINGO DE MEL,Conveniada,NI,Jardim Carvalho,ponto na malha oficial,Agronomia,2025-01-01 04:45:13.050
+5220 IEI CANTINHO DO SOL,Conveniada,NI,Chapéu do Sol,ponto na malha oficial,Chapéu do Sol,2025-01-01 04:45:13.050
+5221 EEI ANA MALTZ KNIJNIK,Conveniada,NI,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+5222 IEI PRISMA,Conveniada,NI,Santa Tereza,ponto na malha oficial,Santa Tereza,2025-01-01 04:45:13.050
+5223 IEI SANTA TERESINHA,Conveniada,NI,Farroupilha,ponto na malha oficial,Farroupilha,2025-01-01 04:45:13.050
+5224 IEI DOM DADEUS GRINGS,Conveniada,NI,Boa Vista do Sul,ponto na malha oficial,Lageado,2025-01-01 04:45:13.050
+5225 IEI ESPAÇO DO SABER,Conveniada,NI,Mário Quintana,ponto na malha oficial,Mário Quintana,2025-01-01 04:45:13.050
+5226 EEI PROFª MARIETA PAIXÃO ARAÚJO,Conveniada,NI,Jardim Leopoldina,ponto na malha oficial,Rubem Berta,2025-01-01 04:45:13.050
+5227 EEI MADRE VERÔNICA,Conveniada,NI,Cristal,ponto na malha oficial,Cristal,2025-01-01 04:45:13.050
+5228 IEI APRENDENDO FELIZ,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5229 IEI CONSTRUINDO O AMANHÃ VILA JARDIM,Conveniada,NI,Vila Jardim,ponto na malha oficial,Vila Jardim,2025-01-01 04:45:13.050
+5230 EEI ABRASCE ILHA DO PAVÃO,Conveniada,NI,Arquipélago,ponto na malha oficial,Arquipélago,2025-01-01 04:45:13.050
+5231 EEI PIMPONETA,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5232 IEI SALVATORE LETTIERI,Conveniada,NI,Passo das Pedras,ponto na malha oficial,Passo das Pedras,2025-01-01 04:45:13.050
+5233 ECEI PROFESSORA VIVI REIS,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5234 EEI JARDIM DE OXUM,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5235 EEI EDUARDA PUJOL ZANIRATTI II,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5236 EEI PITINGUINHA,Conveniada,NI,Pitinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5237 EEI WLANIR PORTO,Conveniada,NI,Serraria,ponto na malha oficial,Serraria,2025-01-01 04:45:13.050
+5238 EEI CHEIRINHO DE MÃE,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5239 EEI MEU PEDACINHO DE CHÃO,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5240 EEI JARDIM FLORESTA LAMI,Conveniada,NI,Extrema,ponto na malha oficial,Lami,2025-01-01 04:45:13.050
+5241 EEI DESENVOLVENDO O SABER,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5242 ECEI LAVINIA PEREZ,Conveniada,NI,Passo D'Areia,ponto na malha oficial,Passo D'Areia,2025-01-01 04:45:13.050
+5243 EEI ANANDA MARGA BELEM NOVO,Conveniada,NI,Belém Novo,ponto na malha oficial,Belém Novo,2025-01-01 04:45:13.050
+5244 EEI NOSSA SENHORA DAS GRAÇAS,Conveniada,NI,Lami,ponto na malha oficial,Lami,2025-01-01 04:45:13.050
+5245 EEI ENI MEDEIROS,Conveniada,NI,Jardim Carvalho,ponto na malha oficial,Jardim Carvalho,2025-01-01 04:45:13.050
+5246 ECEI BUSCANDO O SABER,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5247 ECEI IRMÃO FRANCISCO PEREZ,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5249 EEI IRMÃO FRANCISCO CORNALE,Conveniada,NI,Vila Jardim,ponto na malha oficial,Vila Jardim,2025-01-01 04:45:13.050
+5250 ECEI URSINHOS CARINHOSOS,Conveniada,NI,Lomba do Pinheiro,ponto na malha oficial,Lomba do Pinheiro,2025-01-01 04:45:13.050
+5251 EEI PADRE PEDRO SCAPINI,Conveniada,NI,Sarandi,ponto na malha oficial,Sarandi,2025-01-01 04:45:13.050
+5252  EEI PADRE NELLO VANZO,Conveniada,NI,Partenon,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+5253 ECEI ATELIÊ DA INFÂNCIA,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5254 ECEI SÃO FRANCISCO DE ASSIS,Conveniada,NI,Cidade Baixa,ponto na malha oficial,Cidade Baixa,2025-01-01 04:45:13.050
+5255 ECEI PADRE BENJAMIM ZANNI,Conveniada,NI,Partenon,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+5256 ECEI BRINCAR É ARTE,Conveniada,NI,Restinga,ponto na malha oficial,Restinga,2025-01-01 04:45:13.050
+5257 ECEI EDUCANDÁRIO ANÁLIA FRANCO,Conveniada,NI,Glória,ponto na malha oficial,Glória,2025-01-01 04:45:13.050
+5258  ECEI INSTITUTO MÃE DALVA,Conveniada,NI,Nonoai,ponto na malha oficial,Nonoai,2025-01-01 04:45:13.050
+5259 ECEI SPORT VIDA,Conveniada,NI,Vila Nova,cadastro (sem coordenada),Vila Nova,2025-01-01 04:45:13.050
+6001 EEF PEQUENA CASA DA CRIANÇA,Conveniada,NI,Partenon,ponto na malha oficial,Partenon,2025-01-01 04:45:13.050
+6002 EEF ALDEIA LUMIAR,Conveniada,NI,Tristeza,ponto na malha oficial,Tristeza,2025-01-01 04:45:13.050
+7001 EE ESPECIAL BÁRBARA SYBILLE FISCHINGER,Conveniada,NI,Partenon,cadastro (sem coordenada),Partenon,2025-01-01 04:45:13.050
+7002 ASS DE PAIS E ALUNOS DOS EXCEPCIONAIS DE POR,Conveniada,NI,Vila Nova,ponto na malha oficial,Vila Nova,2025-01-01 04:45:13.050
+7003 ASSOCIAÇÃO DE PAIS E ALUNOS DOS EXCEPCIONAIS DE POR,Conveniada,NI,Glória,ponto na malha oficial,Glória,2025-01-01 04:45:13.050
+7004 ESCOLA DE EDUCAÇÃO ESPECIAL CEREPAL,Conveniada,NI,Passo D'Areia,ponto na malha oficial,Passo D'Areia,2025-01-01 04:45:13.050
+7005 EEI A TURMA DO BARULHO,Conveniada,NI,Vila João Pessoa,cadastro (sem coordenada),Vila João Pessoa,2025-01-01 04:45:13.050
+7006 EEI ADAPTAR,Conveniada,NI,Pedra Redonda,cadastro (sem coordenada),Pedra Redonda,2025-01-01 04:45:13.050
+7007 EEI RECANTO FELIZ,Conveniada,NI,Auxiliadora,cadastro (sem coordenada),Auxiliadora,2025-01-01 04:45:13.050
+7008 ESCOLA DE EDUCAÇÃO INFANTIL CRIANÇADA BILÍNGUE,Conveniada,NI,Santo Antônio,cadastro (sem coordenada),Santo Antônio,2025-01-01 04:45:13.050
+7009 EEI ESTAÇÃO DA FELICIDADE,Conveniada,NI,Centro Histórico,cadastro (sem coordenada),Centro Histórico,2025-01-01 04:45:13.050
+7010 ESCOLA DE EDUCAÇÃO INFANTIL ENVOLVE & DESENVOLVE,Conveniada,NI,Hípica,cadastro (sem coordenada),Hípica,2025-01-01 04:45:13.050
+7011 EEI LALILU  (MATRIZ),Conveniada,NI,São João,cadastro (sem coordenada),São João,2025-01-01 04:45:13.050
+7012 EEI LALILU FILIAL,Conveniada,NI,Cristo Redentor,cadastro (sem coordenada),Cristo Redentor,2025-01-01 04:45:13.050
+7013 EEI DESIDÉRIO DE PAOLI,Conveniada,NI,Passo das Pedras,cadastro (sem coordenada),Passo das Pedras,2025-01-01 04:45:13.050
+7014 EEI LARANJINHA DO CÉU,Conveniada,NI,Sarandi,cadastro (sem coordenada),Sarandi,2025-01-01 04:45:13.050
+7015 EEI MUNDO DA CRIANÇA,Conveniada,NI,Sarandi,cadastro (sem coordenada),Sarandi,2025-01-01 04:45:13.050
+7017 ESCOLA DE EDUCAÇÃO INFANTIL SOL DO SABER,Conveniada,NI,Sarandi,cadastro (sem coordenada),Sarandi,2025-01-01 04:45:13.050
+7018 ESCOLA DE EDUCAÇÃO INFANTIL HORA DE BRINCAR,Conveniada,NI,Jardim Sabará,cadastro (sem coordenada),Jardim Sabará,2025-01-01 04:45:13.050
+7019 EEI MUNDO MÁGICO DA ALEGRIA,Conveniada,NI,Espírito Santo,cadastro (sem coordenada),Espírito Santo,2025-01-01 04:45:13.050
+7020 EEI CONSTRUIR,Conveniada,NI,Cidade Baixa,cadastro (sem coordenada),Cidade Baixa,2025-01-01 04:45:13.050
+7021 EEI SITIO PARAISO,Conveniada,NI,Aberta dos Morros,cadastro (sem coordenada),Aberta dos Morros,2025-01-01 04:45:13.050
+7022 EEI CATIVAR,Conveniada,NI,Partenon,cadastro (sem coordenada),Partenon,2025-01-01 04:45:13.050
+7023 EEI BANANA NANIKA,Conveniada,NI,Petrópolis,cadastro (sem coordenada),Petrópolis,2025-01-01 04:45:13.050
+7025 EEI MEU CANTINHO,Conveniada,NI,Teresópolis,cadastro (sem coordenada),Teresópolis,2025-01-01 04:45:13.050
+7026 EEI SEMEAR,Conveniada,NI,Ipanema,cadastro (sem coordenada),Ipanema,2025-01-01 04:45:13.050
+7027 COLEGIO KENNEDY,Conveniada,NI,Sarandi,cadastro (sem coordenada),Sarandi,2025-01-01 04:45:13.050
+7028 ESCOLA DE ENSINO FUNDAMENTAL MADRE RAFFO,Conveniada,NI,Belém Novo,cadastro (sem coordenada),Belém Novo,2025-01-01 04:45:13.050
+7029 EEI GIRAFINHA TRAVESSA - SANTANA,Conveniada,NI,Santana,cadastro (sem coordenada),Santana,2025-01-01 04:45:13.050
+7030 EEI AMOR DE MÃE,Conveniada,NI,Cavalhada,cadastro (sem coordenada),Cavalhada,2025-01-01 04:45:13.050
+7031 EEI CULTIVAR,Conveniada,NI,Partenon,cadastro (sem coordenada),Partenon,2025-01-01 04:45:13.050
+7032 EEI ESTRELINHAS DE OURO,Conveniada,NI,Restinga,cadastro (sem coordenada),Restinga,2025-01-01 04:45:13.050
+7033 EEI CANTINHO DO CÉU,Conveniada,NI,Agronomia,cadastro (sem coordenada),Agronomia,2025-01-01 04:45:13.050
+7034 EEI CESI JUNIOR ZONA SUL,Conveniada,NI,Aberta dos Morros,cadastro (sem coordenada),Aberta dos Morros,2025-01-01 04:45:13.050
+7035 EEI VIVENDO E APRENDENDO,Conveniada,NI,Sarandi,cadastro (sem coordenada),Sarandi,2025-01-01 04:45:13.050
+7036 EEI RECANTO MIMOSO,Conveniada,NI,São João,cadastro (sem coordenada),São João,2025-01-01 04:45:13.050
+7037 EEI GIRAFINHA TRAVESSA CIDADE BAIXA,Conveniada,NI,Cidade Baixa,cadastro (sem coordenada),Cidade Baixa,2025-01-01 04:45:13.050
+7038 EEI TURMA DO GIZ DE CERA,Conveniada,NI,Cidade Baixa,cadastro (sem coordenada),Cidade Baixa,2025-01-01 04:45:13.050
+7039 EEI A PRIMEIRA FASE DO SABER,Conveniada,NI,Vila Ipiranga,cadastro (sem coordenada),Vila Ipiranga,2025-01-01 04:45:13.050
+7040 EEI BOLA E BAMBOLÊ,Conveniada,NI,Santana,cadastro (sem coordenada),Santana,2025-01-01 04:45:13.050
+7041 EEI BRINCANDO COM AS LETRAS,Conveniada,NI,Ipanema,cadastro (sem coordenada),Ipanema,2025-01-01 04:45:13.050
+7042 EEI PITELLI,Conveniada,NI,Bela Vista,cadastro (sem coordenada),Bela Vista,2025-01-01 04:45:13.050
