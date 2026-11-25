@@ -7,12 +7,17 @@ O IBGE cruzou o Censo 2022 / CNEFE com duas manchas de inundação de 2024:
     Power BI sem download/API, então usamos esta agregação oficial publicada em xlsx.
   - v3 INPE/ANA (19/06/2024): mancha final do grupo de trabalho federal.
 
+Também baixa a malha municipal do RS (API de malhas do IBGE) usada no mapa da Tela 2.
+
 Uso:  python scripts/coletar_ibge.py
-Saída: dados/originais/ibge_*.xlsx (brutos, baixados só uma vez)
+Saída: dados/originais/ibge_*.xlsx e ibge_malha_rs_municipios.geojson (brutos, baixados só uma vez)
+       dados/originais/coleta.json (URL e data de coleta de cada arquivo)
        dados/processados/ibge_areas_afetadas.csv (formato longo: município x mancha)
 """
 import datetime as dt
 import json
+import time
+import urllib.parse
 import urllib.robotparser
 from pathlib import Path
 
@@ -45,35 +50,49 @@ INDICADORES = [
 ]
 
 
-REGISTRO = ORIG / "coleta_ibge.json"  # data de download de cada arquivo (versionado; o git não guarda mtime)
+# Malha municipal do RS (polígonos simplificados, WGS84) para o mapa da Tela 2; "codarea" = cod_ibge
+MALHA_RS = ("ibge_malha_rs_municipios.geojson",
+            "https://servicodados.ibge.gov.br/api/v3/malhas/estados/43"
+            "?formato=application/vnd.geo+json&qualidade=minima&intrarregiao=municipio")
+
+REGISTRO = ORIG / "coleta.json"  # URL e data de download de cada arquivo (o git não guarda a data)
 HEADERS = {"User-Agent": "projeto-academico-enchentes"}
 
 
-def permitido_pelo_robots(url):
-    resp = requests.get("https://ftp.ibge.gov.br/robots.txt", timeout=30, headers=HEADERS)
-    if resp.status_code in (404, 410):  # sem robots.txt -> sem restrições (hoje é 404)
-        return True
+def robots(url):
+    """Consulta o robots.txt do site da URL: (pode baixar?, segundos de espera pedidos pelo site)."""
+    site = urllib.parse.urlsplit(url)
+    try:
+        resp = requests.get(f"{site.scheme}://{site.netloc}/robots.txt", timeout=15, headers=HEADERS)
+    except requests.Timeout:
+        # servicodados.ibge.gov.br (API pública e documentada do IBGE) não responde em /robots.txt
+        print(f"aviso: {site.netloc}/robots.txt não respondeu; tratado como inexistente")
+        return True, 0
+    if resp.status_code in (404, 410):  # sem robots.txt -> sem restrições (ftp.ibge.gov.br hoje é 404)
+        return True, 0
     resp.raise_for_status()  # 401/403/429/5xx: não presume permissão
-    robots = urllib.robotparser.RobotFileParser()
-    robots.parse(resp.text.splitlines())
-    return robots.can_fetch(HEADERS["User-Agent"], url)
+    regras = urllib.robotparser.RobotFileParser()
+    regras.parse(resp.text.splitlines())
+    return regras.can_fetch(HEADERS["User-Agent"], url), regras.crawl_delay(HEADERS["User-Agent"]) or 0
 
 
 def baixar(nome, url):
-    """Baixa o arquivo só se ainda não existe localmente (coleta responsável)."""
+    """Baixa o arquivo só se ainda não existe localmente (coleta responsável) e registra URL + data."""
     destino = ORIG / nome
     registro = json.loads(REGISTRO.read_text()) if REGISTRO.exists() else {}
     if not destino.exists():
-        assert permitido_pelo_robots(url), f"robots.txt bloqueia {url}"
+        pode, espera = robots(url)
+        assert pode, f"robots.txt bloqueia {url}"
+        time.sleep(espera)  # Crawl-Delay do site (dadosabertos.poa.br pede 10 s entre requisições)
         r = requests.get(url, timeout=120, headers=HEADERS)
         r.raise_for_status()
         destino.write_bytes(r.content)
-        registro[nome] = dt.date.today().isoformat()
+        registro[nome] = {"url": url, "data": dt.date.today().isoformat()}
         print(f"baixado: {destino.name} ({len(r.content) / 1024:.0f} KB)")
     elif nome not in registro:  # arquivo baixado antes de existir o registro
-        registro[nome] = dt.date.fromtimestamp(destino.stat().st_mtime).isoformat()
-    REGISTRO.write_text(json.dumps(registro, indent=1) + "\n")
-    return destino, registro[nome]
+        registro[nome] = {"url": url, "data": dt.date.fromtimestamp(destino.stat().st_mtime).isoformat()}
+    REGISTRO.write_text(json.dumps(registro, indent=1, ensure_ascii=False) + "\n")
+    return destino, registro[nome]["data"]
 
 
 def ler(arquivo, data_coleta, mancha, url):
@@ -107,6 +126,11 @@ def main():
     assert (poa["pessoas_total"] == 1332845).all()
     assert not df.duplicated(["cod_ibge", "mancha"]).any()
     assert (df.filter(like="_afetados").values <= df.filter(like="_total").values).all()
+
+    # Malha do RS: todo município da planilha precisa ter polígono no mapa
+    malha = json.loads(baixar(*MALHA_RS)[0].read_text())
+    codigos = {int(f["properties"]["codarea"]) for f in malha["features"]}
+    assert len(codigos) == 497 and set(df["cod_ibge"]) <= codigos, set(df["cod_ibge"]) - codigos
 
     saida = PROC / "ibge_areas_afetadas.csv"
     df.to_csv(saida, index=False)

@@ -1,0 +1,22 @@
+{
+ "ibge_areas_afetadas_spgg_15mai24.xlsx": {
+  "url": "https://ftp.ibge.gov.br/Informacoes_Gerais_e_Referencia/SINGED_Lab/apoio_rs/Solicitacoes_especiais/08_Secretaria_de_Plan_Gov_e_Gestao_do_RS/Dados%20Agregados%20para%20as%20%C3%81reas%20Afetadas%20-%20Munic%C3%ADpios%20do%20RS%20-%20SPGG-RS%20-%2015mai24.xlsx",
+  "data": "2026-11-10"
+ },
+ "ibge_areas_afetadas_v3_26jun24.xlsx": {
+  "url": "https://ftp.ibge.gov.br/Informacoes_Gerais_e_Referencia/SINGED_Lab/apoio_rs/Dados_agregados_para_toda_a_area_afetada_v3_Governo_Federal/Dados_Agregados_para_as_Areas_Afetadas_Municipios_do_RS_GTCasaCivil_26jun24.xlsx",
+  "data": "2026-11-10"
+ },
+ "ibge_malha_rs_municipios.geojson": {
+  "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/43?formato=application/vnd.geo+json&qualidade=minima&intrarregiao=municipio",
+  "data": "2026-11-24"
+ },
+ "bairros_lc12112_16.zip": {
+  "url": "https://dadosabertos.poa.br/dataset/a7172700-e0e2-4797-bf4a-12f658828568/resource/1de9991b-ae77-4359-a0cc-daf82fdf1896/download/bairros_lc12112_16.zip",
+  "data": "2026-11-24"
+ },
+ "cadastro_escolas.csv": {
+  "url": "https://dadosabertos.poa.br/dataset/5d204437-8335-43d5-8df3-102a35fc97fb/resource/5579bc8e-1e47-47ef-a06e-9f08da28dec8/download/cadastro_escolas.csv",
+  "data": "2026-11-24"
+ }
+}
