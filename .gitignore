@@ -5,7 +5,3 @@ __pycache__/
 relatorios/*.html
 .superdesign/
 
-# relatórios ficam fora do repositório (decisão da equipe)
-relatorios/*.md
-relatorios/*.pdf
-relatorios/img/
