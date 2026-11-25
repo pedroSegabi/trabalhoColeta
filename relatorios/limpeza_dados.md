@@ -4,7 +4,7 @@ Projeto Extensionista: Análise de Dados de Enchentes do INCT SiMAI
 
 Coleta, Preparação e Análise de Dados (PUCRS), Profª Katherine Bianchini Esper de Vargas
 
-Equipe: Pedro Ernesto, Ana Luiza Romanini, Enrico Pheula, Fransico Cassol, Pedro Fam
+Equipe: Pedro Ernesto, Ana Luiza Romanini, Enrico Pheula, Francisco Cassol, Pedro Fam
 
 Data: 10/11/2026, atualizado em 24/11/2026 (seções 4.2 e 4.6)
 

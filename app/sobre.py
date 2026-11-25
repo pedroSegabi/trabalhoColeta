@@ -49,7 +49,7 @@ fontes()
 
 st.markdown(f"""
 ### Equipe e código
-Pedro Ernesto, Ana Luiza Romanini, Enrico Pheula, Fransico Cassol e Pedro Fam.
+Pedro Ernesto, Ana Luiza Romanini, Enrico Pheula, Francisco Cassol e Pedro Fam.
 Código, dados e relatórios: [{REPO.removeprefix('https://')}]({REPO}).
 
 ### Uso de IA
