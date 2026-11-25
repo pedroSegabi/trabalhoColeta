@@ -3,3 +3,9 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 relatorios/*.html
+.superdesign/
+
+# relatórios ficam fora do repositório (decisão da equipe)
+relatorios/*.md
+relatorios/*.pdf
+relatorios/img/
