@@ -6,3 +6,7 @@ nbconvert
 nbformat
 ipykernel
 mistune
+geopandas
+streamlit
+plotly
+pytest
