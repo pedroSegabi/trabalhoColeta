@@ -29,7 +29,16 @@ CORRECOES = [
 
 
 def carregar():
-    """Código mínimo do enunciado: lê por chave, então ordem de níveis/bairros/campos não importa."""
+    """Lê o data.json e monta o formato longo: uma linha por (nível, bairro).
+
+    Fonte do código: "Código mínimo para carregar o arquivo em formato longo", do enunciado do
+    Projeto Extensionista (Profª Katherine Bianchini Esper de Vargas). Usado sem alterações na lógica.
+
+    O JSON é um dicionário de dicionários: {"3_0m": {"Anchieta": {campos...}, ...}, ...}.
+    Percorremos por CHAVE (nível -> bairro -> campos), então a ordem em que níveis, bairros ou
+    campos aparecem no arquivo não importa. "3_0m" vira o número 3.0.
+    Devolve o JSON bruto (para checar a estrutura) e a tabela (DataFrame).
+    """
     with open(ENTRADA, encoding="utf-8") as f:
         raw = json.load(f)
     df = pd.DataFrame([
@@ -41,6 +50,13 @@ def carregar():
 
 
 def validar_estrutura(raw, df):
+    """Confere se o arquivo tem o formato esperado antes de mexer em qualquer valor.
+
+    Cada assert é uma regra: se falhar, o script para com erro em vez de gerar dados errados.
+    71 níveis x 94 bairros = 6.674 linhas; nenhum nome de bairro duplicado ou com grafia diferente;
+    campos inteiros e sem nulos; total de prédios e população fixos por bairro; população da
+    cidade = 1.332.845 (Censo 2022). No fim, imprime os níveis com estrutura diferente (achado I8).
+    """
     assert df.shape == (6674, 7), df.shape
     assert set(df["nivel_m"].round(1)) == {round(3 + i / 10, 1) for i in range(71)}  # 3,0..10,0 m, passo 0,1
     assert df["bairro"].nunique() == 94  # pega grafias diferentes do mesmo bairro entre níveis
@@ -62,13 +78,24 @@ def validar_estrutura(raw, df):
 
 
 def quedas(df, col="affected_buildings"):
-    """Linhas em que o valor diminui em relação ao nível anterior do mesmo bairro."""
+    """Linhas em que o valor diminui em relação ao nível anterior do mesmo bairro.
+
+    Regra física: se o rio sobe, o número de prédios afetados não pode cair. Ordenamos por bairro e
+    nível, e shift() traz o valor do nível anterior (0,1 m abaixo) para a mesma linha para comparar.
+    """
     d = df.sort_values(["bairro", "nivel_m"])
     anterior = d.groupby("bairro")[col].shift()
     return d.assign(anterior=anterior)[d[col] < anterior]
 
 
 def diagnosticar_calculos(df):
+    """Descobre como o INCT calculou percentage e affected_population (achados I5, I6 e I7).
+
+    Testa a hipótese "percentage = teto(prédios afetados / total x 100)" linha a linha e mostra
+    onde o erro de ponto flutuante (686/2450*100 = 28,000000000000004) faz o teto subir para 29.
+    Depois testa "affected_population = teto(população x percentage / 100)".
+    Não altera nada: só imprime o diagnóstico.
+    """
     # (a/t)*100 em ponto flutuante, como o INCT aparentemente calculou: 686/2450*100 = 28.000000000000004
     teto_float = (df["affected_buildings"] / df["total_buildings"] * 100).apply(math.ceil)
     teto_exato = (100 * df["affected_buildings"] / df["total_buildings"]).apply(math.ceil)
@@ -81,6 +108,14 @@ def diagnosticar_calculos(df):
 
 
 def limpar(df):
+    """Corrige os valores e recalcula os campos derivados. Guarda os originais em colunas *_orig.
+
+    1) Os valores da lista CORRECOES viram NaN e são reconstruídos pela média dos vizinhos
+       (interpolação linear dentro do bairro); no início da série, usa o primeiro valor válido (bfill).
+    2) Arquipélago: usa o valor que aparece em 64 dos 71 níveis (moda = 4.680).
+    3) Recalcula percentage e affected_population com a fração exata, sem arredondar para cima.
+    A coluna "correcao" diz o que foi feito em cada linha alterada.
+    """
     df = df.sort_values(["bairro", "nivel_m"]).reset_index(drop=True)
     for c in ["affected_buildings", "percentage", "affected_population"]:
         df[f"{c}_orig"] = df[c]
@@ -114,6 +149,7 @@ def limpar(df):
 
 
 def validar_limpo(df):
+    """Confere o resultado: nenhuma queda quando o rio sobe e nenhum valor impossível."""
     assert len(quedas(df)) == 0
     assert df["percentage"].between(0, 100).all()
     assert (df["affected_buildings"] <= df["total_buildings"]).all()
@@ -121,6 +157,7 @@ def validar_limpo(df):
 
 
 def main():
+    """Roda tudo em ordem: carregar -> validar -> diagnosticar -> limpar -> validar -> salvar."""
     raw, df = carregar()
     validar_estrutura(raw, df)
 
