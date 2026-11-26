@@ -53,6 +53,7 @@ Pedro Ernesto, Ana Luiza Romanini, Enrico Pheula, Francisco Cassol e Pedro Fam.
 Código, dados e relatórios: [{REPO.removeprefix('https://')}]({REPO}).
 
 ### Uso de IA
-Usamos o Claude Code (Anthropic). **Todas as tarefas foram solicitadas pela equipe ao Claude, e todo o resultado
-foi revisado pela equipe.** O registro detalhado está em `relatorios/dashboard.pdf` e `relatorios/limpeza_dados.pdf`.
+Usamos o Claude Code (Anthropic) como ferramenta de apoio, principalmente para gerar código e rascunhos de texto.
+A equipe definiu as perguntas do painel, escolheu as bases, decidiu o tratamento dos dados e o design, testou o
+painel e revisou todo o resultado. O registro de cada uso da ferramenta está em `relatorios/dashboard.pdf` e `relatorios/limpeza_dados.pdf`.
 """)

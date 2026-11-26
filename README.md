@@ -91,4 +91,4 @@ O painel do MUP (mup.rs.gov.br) é um Power BI sem download nem API. Por isso us
 
 ## Uso de IA
 
-Usamos o Claude Code (Anthropic). Todas as tarefas foram solicitadas pela equipe ao Claude, e todo o resultado foi revisado pela equipe. O registro detalhado está na seção 7 de `relatorios/limpeza_dados.pdf` (Fase 2) e na seção 10 de `relatorios/dashboard.pdf` (Fase 3).
+Usamos o Claude Code (Anthropic) como ferramenta de apoio, principalmente para gerar código e rascunhos de texto. A equipe definiu as perguntas do painel, escolheu as bases, decidiu o tratamento dos dados e o design, testou o painel e revisou todo o resultado, e cada membro sabe explicar o código. O registro de cada uso da ferramenta está na seção 7 de `relatorios/limpeza_dados.pdf` (Fase 2) e na seção 10 de `relatorios/dashboard.pdf` (Fase 3).

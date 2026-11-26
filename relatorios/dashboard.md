@@ -154,17 +154,17 @@ Os comandos para rodar tudo estão no `README.md`. Os scripts de dados terminam 
 
 ## 10. Uso de ferramentas de IA
 
-Usamos o Claude Code (Anthropic). Todas as tarefas abaixo foram solicitadas pela equipe ao Claude, e todo o resultado foi revisado pela equipe.
+Nesta fase, a equipe usou o Claude Code (Anthropic) como ferramenta de apoio, sempre a partir de pedidos da equipe e com revisão de todo o resultado antes da entrega. Coube à equipe definir as perguntas de cada tela, escolher os diferenciais, aprovar o design, testar o painel e revisar o código. A tabela registra cada momento em que a ferramenta foi usada, como pede o enunciado.
 
-| Etapa | O que a equipe pediu ao Claude |
+| Etapa | Como usamos o Claude Code |
 |---|---|
-| Bases complementares | Verificar a disponibilidade da malha de bairros, do cadastro de escolas e da malha do RS em portais oficiais, e escrever o script de coleta e preparação (`preparar_prefeitura.py`, ajustes em `coletar_ibge.py`) |
-| Dashboard | Escrever o código das telas a partir do wireframe e da lista de funcionalidades definida pela equipe |
-| Design visual | Propor uma direção visual em mocks (a régua do Guaíba) e aplicá-la ao app depois da aprovação da equipe |
-| Testes | Escrever os testes automáticos e conferir o app no navegador |
+| Bases complementares | Verificar a disponibilidade da malha de bairros, do cadastro de escolas e da malha do RS em portais oficiais, e gerar o script de coleta e preparação (`preparar_prefeitura.py`, ajustes em `coletar_ibge.py`) |
+| Dashboard | Gerar o código das telas a partir do wireframe e da lista de funcionalidades definida pela equipe, que testou o painel e pediu os ajustes |
+| Design visual | Propor uma direção visual em mocks (a régua do Guaíba), que a equipe aprovou antes de ser aplicada ao app |
+| Testes | Gerar os testes automáticos e conferir o app no navegador |
 | Ferramenta atual do INCT | Navegar na ferramenta e rascunhar as observações da seção 7, conferidas pela equipe |
-| Relatórios | Redigir este relatório e o de bases de dados a partir do que foi feito, e gerar os PDFs |
-| Revisão dos requisitos | Conferir o trabalho item a item contra o enunciado e corrigir o que faltava (fonte em cada visualização, citação do código do enunciado, recorte das bases) |
+| Relatórios | Rascunhar este relatório e o de bases de dados a partir do que foi feito e gerar os PDFs; a equipe revisou o texto e pediu a reescrita do que não estava claro |
+| Revisão dos requisitos | Conferir o trabalho item a item contra o enunciado e apontar o que faltava (fonte em cada visualização, citação do código do enunciado, recorte das bases) |
 | Materiais de estudo e apresentação | Gerar um guia de estudo do projeto, slides para a apresentação à professora e um relatório-resumo da entrega (páginas no Claude), revisados pela equipe |
 
 As decisões sobre quais perguntas responder, quais diferenciais incluir e como tratar os dados foram da equipe. Todos os membros revisaram o código e sabem explicá-lo.

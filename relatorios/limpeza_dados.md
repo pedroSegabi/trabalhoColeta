@@ -201,9 +201,9 @@ Todo o processamento é feito por scripts Python versionados no repositório. Os
 
 ## 7. Uso de ferramentas de IA
 
-Conforme as regras da disciplina, registramos o uso de IA nesta fase. A ferramenta usada foi o **Claude Code (Anthropic)**. **Todas as tarefas abaixo foram solicitadas pela equipe ao Claude, e todo o resultado (código, gráficos e textos) foi revisado pela equipe** antes da entrega.
+Conforme as regras da disciplina, registramos cada uso de IA nesta fase. A ferramenta foi o **Claude Code (Anthropic)**, usado como apoio e sempre a pedido da equipe. Todo o resultado (código, gráficos e textos) foi revisado pela equipe antes da entrega.
 
-| Etapa | O que a equipe pediu ao Claude |
+| Etapa | Como usamos o Claude Code |
 |---|---|
 | Auditoria do `data.json` | Sugerir e executar testes de consistência (monotonicidade, fórmulas, estrutura) |
 | Scripts de coleta e limpeza | Escrever `coletar_ibge.py`, `limpar_inct.py`, `wireframe.py` e `gerar_pdf.py` |
